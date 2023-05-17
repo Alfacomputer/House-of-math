@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 24px 0 8px;
+}
+
+.container {
+    max-width: 1850px;
+    margin: 0 auto;
+}
+
+.main {
+    background: lightskyblue;
+    height: 100vh;
+}
+
+.wrapper {
+    max-width: 1172px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    margin-left: 20px;
+}
+.header__box {
+    display: flex;
+    align-items: center;
+}
+
+.header__input {
+    margin-right: 50px;
+    width: 320px;
+    height: 43px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border: 2px solid rgb(88, 146, 212);
+    outline: none;
+}
+
+.header__input::placeholder {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.header__explore {
+    margin-right: 7px;
+}
+
+.header__arrow {
+    width: 24px;
+    height: 24px;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    text-align: center;
+    margin-right: 15px;
+}
+
+.header__item-img {
+    width: 38px;
+    height: 32px;
+}
+
+.header__item-people {
+    width: 32px;
+    height: 32px;
+}
+
+.header__item-home {
+    width: 41px;
+    height: 32px;
+}
+
+.header__text {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.activities__title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(83, 80, 97);
+    margin-bottom: 10px;
+}
+
+.activities__items {
+    max-width: 550px;
+}
+
+.activities__items-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.activities__item {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.activities__img {
+    width: 122px;
+    height: 96px;
+}
+
+.activities__text {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(83, 80, 97);
+}
+
+.registr {
+    width: 650px;
+    height: 173px;
+    padding: 32px;
+    margin-top: 47px;
+    background: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(161, 114, 236);
+    margin-bottom: 20px;
+}
+
+.registr__text {
+    font-weight: 600;
+}
+
+.registr__link {
+    display: flex;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background: rgb(128, 66, 163);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: flex-end;
+    max-width: 233px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 330px;
+    transition: all .3s;
+}
+
+.registr__link:hover {
+    background: rgb(64, 8, 97);
+}
+
+.avatar {
+    width: 650px;
+    height: 428px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.avatar__make {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar__box {
+    background-image: url('../img/avatar.webp');
+    background-repeat: no-repeat;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 227px;
+    margin-top: 30px;
+}
+
+.avatar__link {
+    padding: 16px 24px;
+    background: rgb(128, 66, 163);
+    border-radius: 10px;
+    transition: all .3s;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.avatar__link:hover {
+    background: rgb(64, 8, 97);
+}
+
+.avatar__text {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar__take {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 150px;
+    margin-top: 10px;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 10px;
+    transition: all .3s;
+    background: rgb(128, 66, 163);
+}
+
+.avatar__take:hover {
+    background: rgb(64, 8, 97);
+}
